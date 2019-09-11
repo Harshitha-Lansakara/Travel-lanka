@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Gallepackages">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Packages for you"
+        />
+
+    <Spinner
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trainselect">
+
+    </Spinner>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maximum capacity : "/>
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/packagecapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      "/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip duration : "/>
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/packagedays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         "/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description "/>
+
+        <TextView
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         "/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount in (LKR) :"/>
+
+
+        <TextView
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="1000"/>
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your details below"/>
+
+
+
+
+
+    <EditText
+        android:id="@+id/date"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the date of departure"/>
+    <EditText
+        android:id="@+id/name"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name here"/>
+    <EditText
+        android:id="@+id/mobilenum"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your mobile number here"/>
+    <EditText
+        android:id="@+id/email"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your E-mail here"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_buttonyellow"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="proceed with payment"/>
+
+
+
+</LinearLayout>

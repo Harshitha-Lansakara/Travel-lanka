@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#070707"
+    tools:context=".Riverstoninfo">
+
+    <TextView
+        android:textColor="#FFC107"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="R  i  v  e  r  s  t  o  n"/>
+
+    <ViewFlipper
+        android:id="@+id/viewflip"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ViewFlipper>
+
+
+
+    <TextView
+        android:textColor="#FFFCFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is the sample description"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="30sp"
+            android:textColor="#FFC107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 C"
+            />
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="30sp"
+            android:textColor="#FFC107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="180 Km"
+            />
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="30sp"
+            android:textColor="#FFC107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.9/5.0"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Temperature  "
+            />
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   distance from colombo  "
+            />
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   our ratings"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/packages"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     see our packages     "
+        android:background="@drawable/rounded_buttongrey"
+        />
+
+
+    <Button
+        android:textColor="#6F5B5B"
+        android:layout_marginTop="10dp"
+        android:id="@+id/websearch"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    search  more on wikipedia     "
+        android:background="@drawable/rounded_buttonwhite"
+        />
+
+</LinearLayout>

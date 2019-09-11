@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin">
+
+
+
+    <LinearLayout
+
+        android:background="@drawable/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+
+
+
+
+        <EditText
+            android:layout_marginTop="200dp"
+            android:padding="10dp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="#ADACAC" />
+
+
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="enter your password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#B1B1B1" />
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:background="@drawable/rounded_buttongreen"
+
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="CONNECT"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="forgot password!"
+            android:textAllCaps="false"
+            android:textColor="#FFC107" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:textStyle="italic"
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:textColor="#fff"
+            android:background="@null"
+            android:text="not a member yet! Register to TravelLanka"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="162dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

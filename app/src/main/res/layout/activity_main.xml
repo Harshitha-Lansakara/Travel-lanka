@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackfinal2"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/time"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:text="     time  "/>
+        <TextView
+            android:id="@+id/date"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:text="      date  "/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:drawableLeft="@drawable/maps"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Map   "/>
+    <Button
+        android:drawableLeft="@drawable/destination"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Destinations  "/>
+    <Button
+        android:drawableLeft="@drawable/travel"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/travelplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Our travel plans   "/>
+    <Button
+        android:drawableLeft="@drawable/chaticon"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/avoidplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Places to avoid    "/>
+    <Button
+        android:drawableLeft="@drawable/trainbooking"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/trainbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Train Bookings   "/>
+    <Button
+        android:drawableLeft="@drawable/uberbooking"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_buttonyellow"
+        android:id="@+id/uberbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Get an Uber   "/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/rounded_buttonyellow"
+            android:drawableLeft="@drawable/settingsicon"
+            android:padding="16dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
